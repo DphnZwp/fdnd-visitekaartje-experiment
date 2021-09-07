@@ -57,11 +57,26 @@ h1.space, p.space {
 }
 
 img {
-  width: 80%;
-}
-
-.image {
+  width: 227px;
   position: absolute;
   top: 163px;
   left: 370px;
+}
+
+.button {
+  background-color: #44426f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 5px;
+}
+
+.back {
+  z-index: 1;
 }
